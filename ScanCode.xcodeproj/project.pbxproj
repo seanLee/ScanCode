@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC34B301D1CDCD800300FCA /* UIImage+QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC34B2F1D1CDCD800300FCA /* UIImage+QRCode.m */; };
 		BAA6D29A1C0557E400629C63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6D2991C0557E400629C63 /* main.m */; };
 		BAA6D29D1C0557E400629C63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6D29C1C0557E400629C63 /* AppDelegate.m */; };
 		BAA6D2A01C0557E400629C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA6D29F1C0557E400629C63 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADC34B2E1D1CDCD800300FCA /* UIImage+QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QRCode.h"; sourceTree = "<group>"; };
+		ADC34B2F1D1CDCD800300FCA /* UIImage+QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QRCode.m"; sourceTree = "<group>"; };
 		BAA6D2951C0557E400629C63 /* ScanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA6D2991C0557E400629C63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAA6D29B1C0557E400629C63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 		BAA6D2971C0557E400629C63 /* ScanCode */ = {
 			isa = PBXGroup;
 			children = (
+				ADC34B2E1D1CDCD800300FCA /* UIImage+QRCode.h */,
+				ADC34B2F1D1CDCD800300FCA /* UIImage+QRCode.m */,
 				BAA6D2AF1C05580A00629C63 /* ScanCode */,
 				BAA6D29B1C0557E400629C63 /* AppDelegate.h */,
 				BAA6D29C1C0557E400629C63 /* AppDelegate.m */,
@@ -185,6 +190,7 @@
 				TargetAttributes = {
 					BAA6D2941C0557E400629C63 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z428934S8Y;
 					};
 				};
 			};
@@ -244,6 +250,7 @@
 			files = (
 				BAA6D2A01C0557E400629C63 /* ViewController.m in Sources */,
 				BAA6D29D1C0557E400629C63 /* AppDelegate.m in Sources */,
+				ADC34B301D1CDCD800300FCA /* UIImage+QRCode.m in Sources */,
 				BAA6D29A1C0557E400629C63 /* main.m in Sources */,
 				BAA6D2C51C05580A00629C63 /* ScanViewController.m in Sources */,
 			);
@@ -357,9 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScanCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Right.ScanCode;
+				PRODUCT_BUNDLE_IDENTIFIER = sean.ScanCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -368,9 +376,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ScanCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Right.ScanCode;
+				PRODUCT_BUNDLE_IDENTIFIER = sean.ScanCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -394,6 +403,7 @@
 				BAA6D2AE1C0557E400629C63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
